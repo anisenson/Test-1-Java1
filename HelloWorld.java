@@ -6,7 +6,7 @@ public class MyProgram
     {
          Scanner input = new Scanner(System.in);
         
-        System.out.println("PIZZA BILL COMPUTATION PROGRAM");
+        System.out.println("PIZZA BILL COMPUTATION PROGRAM Test");
         System.out.print("Please enter the number of slices of pizza: ");
         int numSlices = input.nextInt();
         
@@ -36,6 +36,7 @@ public class MyProgram
     
         System.out.println("Sales Tax (" + taxRate + "%): $" + addedTax );
         System.out.println("Total Owed: $" + (subTotal + addedTax));
+
        
     }
 }
